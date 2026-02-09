@@ -39,7 +39,7 @@ helm repo update
 
 
 ```
-helm install amaze-surf bitnami/apache
+helm install <release name> bitnami/apache
 ```
 🔹 Explanation
 
@@ -56,7 +56,7 @@ helm install amaze-surf bitnami/apache
 
 • Check release status
 ```
-helm status amaze-surf
+helm status <release name>
 ```
 • List Helm releases
 ```
